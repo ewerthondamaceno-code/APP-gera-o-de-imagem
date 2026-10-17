@@ -24,8 +24,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-
-- name: Configurar Android
+      - name: Configurar Android
         uses: android-actions/setup-android@v4
 
       - name: Configurar Gradle
